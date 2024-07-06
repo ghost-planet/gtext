@@ -2,7 +2,9 @@ add_library(gtext)
 add_library(gtext::gtext ALIAS gtext)
 
 set(GTEXT_SRC
-    gtext.cpp)
+    gtext.cpp
+    textlayout.cpp
+    layout.cpp)
 
 target_sources(gtext PRIVATE ${GTEXT_SRC})
 
